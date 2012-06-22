@@ -5,7 +5,7 @@ require 'formula'
 
 class Ack2 < Formula
   homepage 'http://betterthangrep.com/'
-  url 'https://raw.github.com/lenniboy/ack2-compiled/master/ack-standalone-2_00a01'
+  url 'https://raw.github.com/lenniboy/ack2-compiled/master/builds/ack-standalone-2_00a01'
   sha1 '2a2e9cf1517184272dbc06bfeca7d64c5d376ab5'
   version "2.00a01"
 

@@ -10,5 +10,5 @@ perl Makefile.PL
 make
 make test
 VERSION=`cat Makefile|grep "VERSION_SYM = "|cut -d" " -f 3`
-cp ack-standalone ../ack2-compiled/ack-standalone-$VERSION
+cp ack-standalone ../ack2-compiled/builds/ack-standalone-$VERSION
 
