@@ -10,7 +10,7 @@ class Ack2 < Formula
   version "2.00a01"
 
   def install
-    ver = @version.sub(".","_")
+    ver = @version.to_s.sub(".","_")
     binary = "ack-standalone-#{ver}"
     FileUtils.cp binary, "ack"
     bin.install 'ack'
