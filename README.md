@@ -7,3 +7,6 @@ http://betterthangrep.com/
 
 ###Manual installation
 - Download `builds/ack-standalone-*` and run
+
+###Install dependencies for building ack itself
+    sudo cpan install Test::Harness Carp
