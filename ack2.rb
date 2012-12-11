@@ -6,7 +6,7 @@ require 'formula'
 class Ack2 < Formula
   homepage 'http://betterthangrep.com/'
   url 'https://raw.github.com/lenniboy/ack2-compiled/master/builds/ack-standalone-2_00a01'
-  sha1 '2a2e9cf1517184272dbc06bfeca7d64c5d376ab5'
+  sha1 'cd421e173e8193bfb6b4cdbf8cc9de00c08aac4c'
   version "2.00a01"
 
   def install
